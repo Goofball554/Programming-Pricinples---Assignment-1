@@ -1,3 +1,16 @@
+def StoryExplanation(argument):
+    """
+    This module contains all the story text for the game.
+
+    Each paragraph is defined as its own class so that it can be called on when the state of the game changes.
+
+    Each segment also prints the message (to keep Game.py from getting too clutered)
+    """
+
+    return argument
+
+
+
 class story1:
     def show(self):
         msg1 = "Welcome to Dreamland."
