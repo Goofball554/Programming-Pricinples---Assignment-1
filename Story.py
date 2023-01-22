@@ -1,5 +1,3 @@
-import Game.py
-
 class story1:
     def show(self):
         msg1 = "Welcome to Dreamland."
@@ -72,33 +70,27 @@ class story8:
 class story9:
     def show(self):
         msg1 = "You drag yourself from the battle bleeding and broken, but your spirit unwavering. Ready to take on the next challenge."
-        msg2 = "[AT: ", Game.modifier, "]"
         print(msg1)
-        print(msg2)
 
 class story10:
     def show(self):
         msg1 = "A skeleton [HP: 10] stands before you. I am the master of endurance. It speaks. Kneel at my feet. Ready?"
-        
+        print(msg1)
 
 class story11:
     def show(self):
         msg1 = "You drag yourself from the fight, your legs ache and you may have broken a bone or two. But you continue onward."
-        msg2 = "[DF: ", Game.modifier, "]"
         print(msg1)
-        print(msg2)
 
 class story12:
     def show(self):
         msg1 = "A wizard [HP: 10] stands before you. I guard the life force of Magic. It whispers. None shall pass. Ready?"
-        
+        print(msg1)
 
 class story13:
     def show(self):
         msg1 = "YOu drag yourself from the battle, wanting to quit. But you are so close. Onward."
-        msg2 = "[MG: ", Game.modifier, "]"
         print(msg1)
-        print(msg2)
 
 class story14:
     def show(self):
@@ -108,13 +100,10 @@ class story14:
 class story15:
     def show(self):
         msg1 = "The beast lays slain at your feet. You reach out and toucht the emerald. You feel a great peace overtake you. All is done. Congratulations!"
-        msg2 = "Final Stats: [AT: ", Game.attack, " | DF: ", Game.defense, " | MG: ", Game.magic, "]"
         print(msg1)
         print("")
-        print(msg2)
 
 class death:
     def show(self):
         msg1 = "It seems you have died great warrior. Too bad. GAME OVER"
         print(msg1)
-
